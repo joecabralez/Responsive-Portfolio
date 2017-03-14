@@ -1,0 +1,345 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 1em;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -62px;
+    background-image: url(../images/moonbackground.jpg);
+    overflow: hidden;
+}
+header {
+    max-width: 100%;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 3px;
+    background: #ffffff;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.push {
+    height: 62px;
+}
+.logo {
+    float: left;
+    padding: 20px 40px;
+    margin-top: 20px;
+    background: #4aaaa5;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 35px 45px 0px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.menu li {
+    float: left;
+    padding-right: 20px;
+}
+.menu li:last-child {
+    padding-right: 0;
+}
+.menu li a {
+    color: #777777;
+    font-size: 1em line-height: 24px;
+    text-decoration: none;
+}
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 10px;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ccc;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+.two-thirds {
+    width: 71.875%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.grayborder {
+    border: 2px solid #dddddd;
+    background-color: #fff;
+    overflow: hidden;
+}
+#biophoto {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.one-third {
+    width: 28.125%;
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.social {
+    width: 33.33333%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/*CONTACT FORM */
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.emailform .emailform .messageform p {
+    padding-top: 5px;
+}
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* portfolio boxes */
+
+.PortfolioContainer {
+    margin: 10px 10px 10px 10px;
+}
+.PortfolioItem {
+    position: relative;
+    width: 33.3333333%;
+    float: left;
+    margin-bottom: 15px;
+}
+.PortfolioTitles {
+    bottom: 5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+footer {
+    clear: both;
+    max-width: 100%;
+    margin-bottom: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #666666;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    height: 22px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+	.two-thirds, .one-third {
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		padding-bottom: 40px;
+	}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
