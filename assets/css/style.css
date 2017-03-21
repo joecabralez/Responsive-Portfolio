@@ -226,16 +226,22 @@ footer {
 @media (max-width: 980px) {
     .two-thirds {width: 100%}
      .one-third {width: 100%}
+     .logo {width: 100%;
+            text-align: center}
 }
 
 @media (max-width: 768px) {
 	.two-thirds {width: 100%}
      .one-third {width: 100%}
+     .logo {width: 100%;
+            text-align: center}
 }
 
 @media (max-width: 640px) {
     .two-thirds {width: 100%}
      .one-third {width: 100%}
+     .logo {width: 100%;
+            text-align: center}
 }
 
 /* ==========================================================================
